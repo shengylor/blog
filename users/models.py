@@ -10,8 +10,13 @@ class Profile(models.Model):
     def __str__(self):
         return f'{self.user.username} Profile'
 
+<<<<<<< HEAD
     def save(self, *args, **kawrgs):
         super().save(*args, **kawrgs)
+=======
+    def save(self):
+        super().save()
+>>>>>>> origin/master
 
         img = Image.open(self.image.path)
 

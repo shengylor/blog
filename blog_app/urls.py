@@ -26,6 +26,7 @@ urlpatterns = [
     path('profile/', user_views.profile, name='profile'),
     path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
+<<<<<<< HEAD
     path('password-reset/',
          auth_views.PasswordResetView.as_view(
              template_name='users/password_reset.html'
@@ -46,6 +47,8 @@ urlpatterns = [
              template_name='users/password_reset_complete.html'
          ),
          name='password_reset_complete'),
+=======
+>>>>>>> origin/master
     path('', include('blog.urls')),
 ]
 

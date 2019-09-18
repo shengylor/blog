@@ -13,16 +13,26 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
 
     {% if title %}
+<<<<<<< HEAD
         <title>Travel Blog - {{ title }}</title>
     {% else %}
         <title>Travel Blog</title>
+=======
+        <title>Django Blog - {{ title }}</title>
+    {% else %}
+        <title>Django Blog</title>
+>>>>>>> origin/master
     {% endif %}
 </head>
 <body>
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
+<<<<<<< HEAD
           <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Travel Review</a>
+=======
+          <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Django Blog</a>
+>>>>>>> origin/master
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
