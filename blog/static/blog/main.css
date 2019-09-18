@@ -1,5 +1,5 @@
 body {
-  background: #fafafa;
+  background: #E9F1EE;
   color: #333333;
   margin-top: 5rem;
 }
@@ -8,20 +8,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #444444;
 }
 
+
+
 ul {
   margin: 0;
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #76b49f;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  color: #ffffff;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  color: #00633C;
 }
 
 .site-header .navbar-nav .nav-link.active {
